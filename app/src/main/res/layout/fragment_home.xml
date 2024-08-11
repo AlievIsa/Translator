@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/text_change_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/source_lang_chip"
+            style="@style/Widget.Material3.Chip.Assist.Elevated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:elevation="8dp"
+            android:enabled="true"
+            android:text="@string/source"
+            android:textAlignment="center"
+            app:chipBackgroundColor="@color/colorSecondary"
+            app:chipIcon="@drawable/baseline_arrow_drop_down_24"
+            app:chipIconVisible="true" />
+
+        <ImageButton
+            android:id="@+id/action_swap_lang"
+            style="@style/Widget.Material3.Button.IconButton.Outlined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_swap_horiz_24" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/target_lang_chip"
+            style="@style/Widget.Material3.Chip.Assist.Elevated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:elevation="8dp"
+            android:enabled="true"
+            android:text="@string/target"
+            android:textAlignment="center"
+            app:chipBackgroundColor="@color/colorSecondary"
+            app:chipIcon="@drawable/baseline_arrow_drop_down_24"
+            app:chipIconVisible="true" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/source_text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="16dp"
+        style="@style/Widget.Design.TextInputLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_change_section"
+        app:endIconMode="custom"
+        app:hintTextColor="@color/colorOnSecondary"
+        app:endIconDrawable="@drawable/baseline_mic_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/source_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="@string/enter_text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/translation_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorOnPrimary"
+        tools:text="Translation will be here"
+        app:layout_constraintTop_toBottomOf="@id/source_text_input_layout"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/source_text_input_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

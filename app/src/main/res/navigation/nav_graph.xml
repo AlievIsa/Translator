@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.translator.ui.home.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_selectedFragment"
+            app:destination="@id/selectedFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectedFragment"
+        android:name="com.example.translator.ui.selected.SelectedFragment"
+        android:label="@string/selected"
+        tools:layout="@layout/fragment_selected" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.translator.ui.history.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.example.translator.ui.authentication.AuthFragment"
+        android:label="@string/authfragment" />
+</navigation>

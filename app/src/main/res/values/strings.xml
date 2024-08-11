@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Translator</string>
+    <string name="client_id" translatable="false">435887875165-fphibr5k8t0s81pgp68u8pmqre3igft9.apps.googleusercontent.com</string>
+    <string name="open" translatable="false">Open Navigation Drawer</string>
+    <string name="close" translatable="false">Close Navigation Drawer</string>
+    <string name="selected">Selected</string>
+    <string name="history">History</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="settings">Settings</string>
+    <string name="clear_all">Clear all</string>
+    <string name="sort_by_date">Sort by date</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="enter_text">Enter text</string>
+    <string name="same_language_error">Choose different languages</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="choose_languages_error" />
+    <string name="source">Source</string>
+    <string name="target">Target</string>
+    <string name="search_query_hint">Enter Query</string>
+    <string name="authorize">Authorize</string>
+    <string name="add_avatar">Add avatar</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in"> Log In</string>
+    <string name="Sign_up">Sign Up</string>
+    <string name="Log_in"> Log In</string>
+    <string name="log_in_to_sync">Log in to synchronize with cloud</string>
+    <string name="authfragment">Authorization</string>
+    <string name="avatar_error">Please, choose avatar</string>
+    <string name="confirm_password_error">Password does not match</string>
+    <string name="password_error">Enter password</string>
+    <string name="password_length_error"><![CDATA[Password length should be > 5 and < 24]]></string>
+    <string name="password_invalid_characters_error">
+    <![CDATA[Password should only contain letters a–z, A–Z, digits 0–9, and special symbols @#$%^&+=]]>
+    </string>
+    <string name="email_error">Enter email</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="name_error">Enter name</string>
+    <string name="name_too_long"><![CDATA[Name length should be < 30]]></string>
+    <string name="login_successful">Login Successful</string>
+    <string name="sign_up_successful">Sign Up Successful</string>
+    <string name="speak_now">Speak now</string>
+    <string name="voice_input_stopped">Voice input stopped</string>
+    <string name="permission_for_audio_recording_denied">Permission for audio recording denied</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Переводчик</string>
+    <string name="selected">Избранные</string>
+    <string name="open" translatable="false">Открыть боковое меню</string>
+    <string name="close" translatable="false">Закрыть боковое меню</string>
+    <string name="history">История</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="settings">Настройки</string>
+    <string name="clear_all">Очистить все</string>
+    <string name="sort_by_date">Сортировать по имени</string>
+    <string name="sort_by_name">Сортировать по дате</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="same_language_error">Выберите разные языки</string>
+    <string name="search">Поиск</string>
+    <string name="sort">Сортировать</string>
+    <string name="choose_languages_error">Выберите языки</string>
+    <string name="source">Начальный</string>
+    <string name="target">Целевой</string>
+    <string name="search_query_hint">Введите запрос</string>
+    <string name="authorize">Авторизироваться</string>
+    <string name="add_avatar">Добавить аватар</string>
+    <string name="name">Имя</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Повторите пароль</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="log_in">Войти</string>
+    <string name="Sign_up">Регистрация</string>
+    <string name="Log_in"> Вход</string>
+    <string name="log_in_to_sync">Войдите для синхронизации с облаком</string>
+    <string name="authfragment">Авторизация</string>
+    <string name="avatar_error">Пожалуйста, выберите аватар</string>
+    <string name="confirm_password_error">Пароль не совпадает</string>
+    <string name="password_error">Введите пароль</string>
+    <string name="password_length_error"><![CDATA[Пароль должен быть > 5 и < 24]]></string>
+    <string name="password_invalid_characters_error">
+    <![CDATA[Пароль должен содержать только символы a–z, A–Z, цифры 0–9 и @#$%^&+=]]>
+    </string>
+    <string name="email_error">Введите email</string>
+    <string name="invalid_email">Неверный email</string>
+    <string name="name_error">Введите имя</string>
+    <string name="name_too_long"><![CDATA[Имя должно быть < 30]]></string>
+    <string name="login_successful">Успешный вход</string>
+    <string name="sign_up_successful">Успешная регистрация</string>
+    <string name="speak_now">Говорите</string>
+    <string name="voice_input_stopped">Голосовой ввод остановлен</string>
+    <string name="permission_for_audio_recording_denied">Разрешение на голосовой ввод отклонено</string>
+</resources>

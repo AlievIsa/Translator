@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/action_selected"
+            android:icon="@drawable/baseline_star_outline_24"
+            android:title="@string/selected" />
+    </group>
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/change_theme"
+                android:icon="@drawable/outline_dark_mode_24"
+                android:title="@string/dark_theme"
+                app:actionViewClass="android.widget.Switch" />
+        </menu>
+    </item>
+</menu>
